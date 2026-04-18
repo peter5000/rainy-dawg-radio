@@ -5,7 +5,8 @@ import {author} from './schemas/author'
 import {teamPerson} from './schemas/teamPerson'
 import {eventPost} from './schemas/eventPost'
 import {jobApp} from './schemas/jobApp'
+import {schedule} from './schemas/schedule'
 
 export const schema = {
-  types: [post, author, category, blockContent, teamPerson, eventPost, jobApp],
+  types: [post, author, category, blockContent, teamPerson, eventPost, jobApp, schedule],
 }

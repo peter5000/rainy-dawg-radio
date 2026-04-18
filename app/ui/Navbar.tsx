@@ -10,9 +10,10 @@ export default function Navbar() {
 
             <div className="flex space-x-14">
                 <Link href="/about" className="font-mono hover:text-gray-700 font-bold">About</Link>
-                <Link href="/listen" className="font-mono hover:text-gray-700 font-bold">Listen</Link>
+                <Link href="/listen" className="font-mono hover:text-gray-700 font-bold">Playlists</Link>
                 <Link href="/blog" className="font-mono hover:text-gray-700 font-bold">Blog</Link>
                 <Link href="/gallery" className="font-mono hover:text-gray-700 font-bold">Gallery</Link>
+                <Link href="/schedule" className="font-mono hover:text-gray-700 font-bold">Schedule</Link>
             </div>
         </nav>)
 }
